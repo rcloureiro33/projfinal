@@ -3,9 +3,10 @@ import "./style.css"
 
 export function Card() {
     return (
-        <div style="border: solid 1px; height:1000px;" class="container" className="body">
-            <img src="https://metech.nyc3.digitaloceanspaces.com/site-carmopolis/icon_dashboard_galeriadeimagens_256_256.png" alt="photo" />
-            <h1>TEXTO</h1>
+        <div className="body">
+            <p>Já tem<br></br>
+            Login?<br></br>
+            Entre</p>
         </div>
     );      
 }
